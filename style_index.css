@@ -1,0 +1,35 @@
+/*kleuren*/
+:root {
+  --color1: #686868;
+  --color2: #464646;
+  --color3: #ff8000;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+/*de header*/
+header{
+  color: var(--color3);
+  background-color: var(--color2);
+  padding: 1rem;
+  text-align: center;
+}
+/*achtergrond veranderen en rand om header weg halen*/
+body{
+  background-color: var(--color1);
+  margin: 0;
+  padding: 0;
+}
+/*lijn onder links weghalen en kleur veranderen*/
+.indexLink{
+  text-decoration: none;
+  color: yellow;
+}
+/*lijn onder links terug brengen wanneer hover*/
+a:hover{text-decoration: underline}
+/*breete colommen*/
+td{
+  width: 46%;
+}

@@ -1,0 +1,189 @@
+/*kleuren*/
+:root {
+  --color1: #686868;
+  --color2: #464646;
+  --color3: #ff8000;
+}
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color1);
+
+  } 
+/* header */
+body header {
+    text-align: center;
+    background-color: var(--color3);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  /*het weghalen van de lijn onder de links in de header*/
+  .header_link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .home_button {
+    text-decoration: none;
+    color: black;
+    
+  }
+  /*de lijn onder de links terugbrengen op een hover*/
+  a:hover {
+    text-decoration: underline;
+
+  /*het text block 'standaart*/
+  }
+  .text_square { 
+    background-color: var(--color2);
+    color: var(--color3);
+    margin: 2%; 
+    margin-left: 20%;
+    margin-right: 20%; 
+    padding: 0.5% 1.5%;
+    border-radius: 43px; 
+   }
+   /*voor standaart fotos*/
+  .img{
+    border: 5px solid var(--color2); 
+    display: block; 
+    margin-left: 2%; 
+    margin-right: auto; 
+    border-radius: 20px;
+    width: 45%; 
+  }
+  /*links een andere kleur geven en lijn er onder weghalen*/
+  .link{
+    color: yellow;
+    text-decoration: none;
+  }
+  /*uitslag + text 123test rand met ronding geven en op de juiste plek zetten*/
+  #uitslag_text_1 { 
+    background-color: var(--color2);
+    color: var(--color3);
+    padding: 0.5% 1.5%;
+    border-radius: 43px;
+    margin-left: 52%;
+    margin-right: 2.5%;
+    margin-top: -8.5%;
+    
+  }
+  #img_uitslag_1{
+    border: 5px solid var(--color2); 
+    margin-left: 2%; 
+    margin-right: auto; 
+    border-radius: 20px;
+    width: 45%; 
+  }
+  /*uitslag + text kwaliteitscan rand met ronding geven en op de juiste plek zetten*/
+  #uitslag_text_2{
+    background-color: var(--color2); 
+    color: var(--color3);
+    padding: 0.5% 1.5%;
+    border-radius: 43px;
+    margin-top: 8%;
+    margin-left: 2%;
+    width: 43%;
+  }
+  #img_uitslag_2{
+    border: 5px solid var(--color2);
+    margin-left: 52%; 
+    margin-top: -12%;
+    border-radius: 20px;
+    width: 45%; 
+  }
+  /*school foto floaten en op de juiste plek zetten*/
+  #pasfoto{
+    float: left; 
+    margin: 4%;
+  }
+  /*text over computer rand geven en op de juiste plek zetten*/
+  #wkiComputers{ 
+    background-color: var(--color2);
+    color: var(--color3); 
+    H2{text-align: center}
+    padding: 0.5% 1.5%;
+    border-radius: 43px;
+    margin-top: 2%; 
+    margin-left: 2%;
+    margin-right: 45%;
+  }
+  /*foto van mijn computer de juiste groote maken en rand geven en op de juiste plek zetten*/
+  #fotoComputer{
+    width: 30%;
+    margin-top: -8%;
+    margin-left: 62%;
+    border: 5px solid var(--color2);
+    border-radius: 20px; 
+  }
+  /*text over sporten rand geven en op de juiste plek zeteen*/
+  #wkiSporten{
+    background-color: var(--color2);
+    color: var(--color3); 
+    h2{text-align: center}
+    padding: 0.5% 1.5%;
+    border-radius: 43px; 
+    margin-top: -27%;
+    margin-left: 2%; 
+    margin-right: 45%;
+  }
+  /* text van rubiks cube rand geven en op de juiste plek zetten*/
+  #wkiRubikscube{ 
+    background-color: var(--color2);
+    color: var(--color3); 
+    H2{text-align: center;};
+    padding: 0.5% 1.5%;
+    border-radius: 43px;
+    width: 32%;
+    margin-top: -13.5%;
+    margin-left: 2%;
+  }
+  /*foto rubiks cube op de juiste plek zetten*/
+  #imgRubikscube{
+    width: 15%;
+    margin: 2%;
+    margin-left: 40%;
+  }
+  /*text van wat later misschien wil rand geven en op de juiste plek zetten*/
+  #wwi1{
+    background-color: var(--color2);
+    color: var(--color3);
+    h3{text-align: center}
+    padding: 0.5% 1.5%;
+    border-radius: 43px;
+    margin-top: 3%;
+    margin-left: 22%;
+    margin-right: 22%
+  }
+  /*text over wat ik ga doen rand geven en op de ruiste plek zetten*/
+  #wwi2{
+    background-color: var(--color2);
+    color: var(--color3);
+    padding: 0.5% 1.5%;
+    border-radius: 43px;
+    margin-top: 4%;
+    margin-left: 22%;
+    margin-right:22%;
+  }
+  /*logos van fontys en hogeschool utrecht op de juiste plek zetten*/
+  #fontysLogo{
+    width: 20%;
+    margin-left: 20%;
+  }
+
+  #huLogo{
+    width: 20%;
+    margin-top: -15%;
+    margin-left: 65%; 
+  }
