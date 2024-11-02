@@ -80,7 +80,7 @@ body header {
     
   }
   #img_uitslag_1{
-    border: 5px solid var(--color2); 
+    border: 0.5% 1.5% solid var(--color2); 
     margin-left: 2%; 
     margin-right: auto; 
     border-radius: 20px;
